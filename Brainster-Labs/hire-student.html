@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вработи наш студент</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/086f7a7898.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/hire-student.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="./index.html" class="logo">
+        <img src="./img/Logo.png" alt="Brainster logo" />
+        <p>BRAINSTER</p>
+      </a>
+      <div class="open-menu">
+        <img src="./img/menu.svg" alt="burger menu" />
+      </div>
+      <ul class="main-menu">
+        <li>
+          <a href=" https://marketpreneurs.brainster.co" target="_blank"
+            >Академија за маркетинг</a
+          >
+        </li>
+        <li>
+          <a href=" https://codepreneurs.brainster.co" target="_blank"
+            >Академија за програмирање</a
+          >
+        </li>
+        <li>
+          <a href="https://brainster.co/data-science" target="_blank"
+            >Академија за data science</a
+          >
+        </li>
+        <li>
+          <a href="https://design.brainster.co" target="_blank"
+            >Академија за дизајн</a
+          >
+        </li>
+        <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+        <a href="./hire-student.html" class="btn">Вработи наш студент</a>
+      </ul>
+    </nav>
+
+    <!-- Form section -->
+    <section class="form-section">
+      <h1 class="form-header">Вработи студенти</h1>
+      <div class="inner-section">
+        <form id="form" action="/index.html" class="form d-flex">
+          <div class="box-wrapper">
+            <div class="box">
+              <label for="username">Име и презиме</label><br />
+              <input
+                id="username"
+                name="username"
+                type="text"
+                placeholder="Вашето име и презиме"
+              />
+              <div class="error"></div>
+            </div>
+          </div>
+
+          <div class="box-wrapper">
+            <div class="box">
+              <label for="email">Име на компанија</label><br />
+              <input
+                id="company"
+                name="company"
+                type="text"
+                placeholder="Име на вашата компанија"
+              />
+              <div class="error"></div>
+            </div>
+          </div>
+
+          <div class="box-wrapper">
+            <div class="box">
+              <label for="email">Контакт имејл</label><br />
+              <input id="email" name="email" type="text" placeholder="E-mail" />
+              <div class="error"></div>
+            </div>
+          </div>
+
+          <div class="box-wrapper">
+            <div class="box">
+              <label for="phone">Контакт телефон</label><br />
+              <input
+                id="phone"
+                name="phone"
+                type="phone"
+                placeholder="Контакт телефон на вашата компанија"
+              />
+              <div class="error"></div>
+            </div>
+          </div>
+
+          <div class="box-wrapper">
+            <div class="custom-select box">
+              <button
+                id="dropdown"
+                class="select-button"
+                role="combobox"
+                aria-labelledby="select button"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-controls="select-dropdown"
+              >
+                <span class="selected-value">Тип на студенти</span>
+                <span class="arrow"></span>
+              </button>
+              <ul class="select-dropdown" role="listbox" id="select-dropdown">
+                <li role="option">
+                  <input type="radio" id="marketing-student" name="student" />
+                  <label for="marketing-student">Студенти од маркетинг</label>
+                </li>
+                <li role="option">
+                  <input type="radio" id="programming-student" name="student" />
+                  <label for="programming student"
+                    >Студенти од програмирање</label
+                  >
+                </li>
+                <li role="option">
+                  <input type="radio" id="data-student" name="student" />
+                  <label for="data-student">Студенти од data science</label>
+                </li>
+                <li role="option">
+                  <input type="radio" id="design-student" name="student" />
+                  <label for="design-student">Студенти од дизајн</label>
+                </li>
+              </ul>
+              <div class="error"></div>
+            </div>
+          </div>
+
+          <div class="box-wrapper">
+            <div class="box">
+              <button type="submit" class="form-btn">Испрати</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-fixed">
+      <p>Изработено со &#129505; од студентите на Браинстер</p>
+    </footer>
+
+    <!-- Custom js file -->
+    <script type="text/javascript" src="./js/script.js"></script>
+    <!-- Custom js file -->
+    <script type="text/javascript" src="./js/hire-student-form.js"></script>
+  </body>
+</html>
