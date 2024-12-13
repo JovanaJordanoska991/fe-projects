@@ -1,0 +1,523 @@
+{
+
+  "services": [
+
+    {
+
+      "id": "1",
+
+      "title": "SIEM Threat Detection & Response",
+
+      "description": "Our 24/7 monitoring services use AI-powered tools to detect and neutralize threats before they can harm your business",
+
+      "icon": "/assets/section detail card/shield.svg",
+
+      "link": "/siem-threat-detection-and-responses"
+
+    },
+
+    {
+
+      "id": "2",
+
+      "title": "Penetration Testing",
+
+      "description": "Identify and eliminate vulnerabilities in your network with our comprehensive penetration testing services",
+
+      "icon": "/assets/section detail card/target.svg",
+
+      "link": "/penetration-testing"
+
+    },
+
+    {
+
+      "id": "3",
+
+      "title": "Incident Response",
+
+      "description": "In the event of a breach, our expert team reacts swiftly to minimize damage and restore your systems quickly",
+
+      "icon": "/assets/section detail card/bookmark.svg",
+
+      "link": "/incident-response"
+
+    },
+
+    {
+
+      "id": "4",
+
+      "title": "Network Security",
+
+      "description": "We offer end-to-end network security solutions, optimizing your infrastructure while securing it against unauthorized access",
+
+      "icon": "/assets/section detail card/network.svg",
+
+      "link": "/network-security"
+
+    },
+
+    {
+
+      "id": "5",
+
+      "title": "Security Awareness Training",
+
+      "description": "Empower your employees to recognize and respond to potential cyber threats. Our comprehensive security awareness programs equip your workforce with the knowledge they need to prevent attacks",
+
+      "icon": "/assets/section detail card/mashine.svg",
+
+      "link": "/security-awareness-training"
+
+    },
+
+    {
+
+      "id": "6",
+
+      "title": "Vulnerability Managment",
+
+      "description": "Lorem ipsum dolor sit amet consectetur. Blandit non sed dignissim integer aliquam eget.",
+
+      "icon": "/assets/section detail card/shield-with-electricity.svg",
+
+      "link": "/vulnerability-management"
+
+    }
+
+  ],
+
+
+  "team-members": [
+
+    {
+
+      "id": "7",
+
+      "title": "Furkan Bajrami",
+
+      "description": "Lorem ipsum dolor sit amet consectetur. Arcu nullam habitasse tortor id.",
+
+      "image": "/assets/team members/Furkan-Bajrami.png",
+
+      "category": "Leadership"
+
+    },
+
+    {
+
+      "id": "8",
+
+      "title": "Petar Ninovski",
+
+      "job-title": "Co- Founder & CXX",
+
+      "description": "Petar has over 10 years of experience in cybersecurity and IT consulting.",
+
+      "image": "/assets/team members/Petar-Ninovski.png",
+
+      "category": "Leadership"
+
+    },
+
+    {
+
+      "id": "9",
+
+      "title": "Lena Müller",
+
+      "job-title": "Chief Technology Officer (CTO)",
+
+      "description": "With over 12 years of experience in cybersecurity and technology development, Lena leads CGD’s technical initiatives and innovation strategies",
+
+      "image": "/assets/team members/Lena-Müller.png",
+
+      "category": "Leadership"
+
+    },
+
+    {
+
+      "id": "10",
+
+      "title": "Lukas Schmidt",
+
+      "description": "Lukas excels in threat detection and network security, identifying vulnerabilities to protect systems from cyber risks.",
+
+      "image": "/assets/team members/Lukas-Schmidt.png",
+
+      "category": "Cybersecurity"
+
+    },
+
+    {
+
+      "id": "11",
+
+      "title": "Emma Brown",
+
+      "description": "Emma designs training programs to boost employee cybersecurity awareness and help organizations stay secure.",
+
+      "image": "/assets/team members/Emma-Brown.png",
+
+      "category": "Cybersecurity"
+
+    },
+
+    {
+
+      "id": "12",
+
+      "title": "Karl Müller",
+
+      "description": "Karl specializes in penetration testing and incident response, helping businesses safeguard against evolving threats.",
+
+      "image": "/assets/team members/Karl-Müller.png",
+
+      "category": "Cybersecurity"
+
+    },
+
+    {
+
+      "id": "13",
+
+      "title": "Emily Johnson",
+
+      "description": "Emily simplifies cybersecurity for employees through workshops, teaching best practices for staying safe online.",
+
+      "image": "/assets/team members/Emily-Johnson.png",
+
+      "category": "Advisors"
+
+    },
+
+    {
+
+      "id": "14",
+
+      "title": "Hannah Weber",
+
+      "description": "Hannah creates engaging security campaigns, making cybersecurity easy to understand and apply across teams.",
+
+      "image": "/assets/team members/Hannah-Weber.png",
+
+      "category": "Advisors"
+
+    },
+
+    {
+
+      "id": "15",
+
+      "title": "James Fischer",
+
+      "description": "James focuses on incident monitoring and response, using data analytics to keep systems secure from potential attacks.",
+
+      "image": "/assets/team members/James-Fischer.png",
+
+      "category": "Advisors"
+
+    }
+
+
+  ],
+
+  "our-customers": [
+
+    {
+
+      "id": "16",
+
+      "title": "- Emily R.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/emily-r.png"
+
+    },
+
+    {
+
+      "id": "17",
+
+      "title": "- Linda T.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/linda-t.png"
+
+    },
+
+    {
+
+      "id": "18",
+
+      "title": "- Jessica M.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/jessica-m.png"
+
+    },
+
+    {
+
+      "id": "19",
+
+      "title": "- David K.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/david-k.png"
+
+    },
+
+    {
+
+      "id": "20",
+
+      "title": "- Michael T.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/michael-t.png"
+
+    },
+
+    {
+
+      "id": "21",
+
+      "title": "- Sarah L.",
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+
+      "image": "/assets/our customers/sarah-l.png"
+
+    }
+
+  ], 
+
+  "about-us": [
+
+    {
+
+      "id": "22",
+
+      "title": "Our Mission",
+
+      "description": "At Cyberware Global Defense (CGD), our mission is to safeguard businesses by delivering cutting-edge cybersecurity solutions. By combining advanced AI technologies with industry-leading expertise, we ensure that our clients are protected from the evolving landscape of cyber threats. Our goal is to keep your business secure and resilient.",
+
+      "image": "/assets/about banner/our-mission.svg"
+
+    },
+
+    {
+
+      "id": "23",
+
+      "title": "Our Story",
+
+      "description": "At Cyberware Global Defense (CGD), our mission is to safeguard businesses by delivering cutting-edge cybersecurity solutions. By combining advanced AI technologies with industry-leading expertise, we ensure that our clients are protected from the evolving landscape of cyber threats. Our goal is to keep your business secure and resilient.",
+
+      "image": "/assets/about banner/our-story.svg"
+
+    },
+
+    {
+
+      "id": "24",
+
+      "title": "Our Expertise",
+
+      "description": "At Cyberware Global Defense (CGD), our mission is to safeguard businesses by delivering cutting-edge cybersecurity solutions. By combining advanced AI technologies with industry-leading expertise, we ensure that our clients are protected from the evolving landscape of cyber threats. Our goal is to keep your business secure and resilient.",
+
+      "image": "/assets/about banner/our-expertise.svg"
+
+    },
+
+    {
+
+      "id": "25",
+
+      "title": "Our Values",
+
+      "description": "At Cyberware Global Defense (CGD), our mission is to safeguard businesses by delivering cutting-edge cybersecurity solutions. By combining advanced AI technologies with industry-leading expertise, we ensure that our clients are protected from the evolving landscape of cyber threats. Our goal is to keep your business secure and resilient.",
+
+      "image": "/assets/about banner/our-values.svg"
+
+    }
+
+
+  ],
+
+  "our-certifications": [
+
+    {
+
+      "id": "26",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+      "image": "/assets/certifications/iso-certification.svg"
+
+    },
+
+    {
+
+      "id": "27",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+     "image": "/assets/certifications/iso-certification.svg"
+
+    },
+
+    {
+
+      "id": "28",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+      "image": "/assets/certifications/iso-certification.svg"
+
+    },
+
+    {
+
+      "id": "29",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+      "image": "/assets/certifications/iso-certification.svg"
+
+    },
+
+    {
+
+      "id": "30",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+      "image": "/assets/certifications/iso-certification.svg"
+
+    },
+
+    {
+
+      "id": "31",
+
+      "title": "Quality Management",
+
+      "subtitle": "(DIN EN ISO 9001)",
+
+      "description": "ensures consistent quality in our processes, enhancing customer satisfaction.",
+
+      "image": "/assets/certifications/iso-certification.svg"
+
+    }
+
+
+  ],
+  
+  "industry-services": [
+
+    {
+
+      "id": "36",
+
+      "title": "Healthcare",
+
+      "description": "Cyber services in the health sector are crucial for protecting sensitive patient data and ensuring the integrity of healthcare systems. The healthcare industry faces significant cybersecurity challenges, including outdated software, inadequate network protections, and a lack of employee training, making it a prime target for cybercriminals. Common threats include ransomware attacks, phishing schemes, and vulnerabilities in Internet of Medical Things (IoMT) devices. Effective cybersecurity measures must include robust data protection protocols, regular security audits, and comprehensive employee training to foster awareness. Additionally, implementing advanced technologies like threat intelligence can help healthcare organizations anticipate and mitigate risks. As the sector continues to evolve, prioritizing cybersecurity is essential to safeguard patient safety and maintain trust in healthcare services.",
+
+      "image": "/assets/industries/healthcare.svg"
+
+    },
+
+    {
+
+      "id": "37",
+
+      "title": "eGame",
+
+      "description": "Cyber services for the eGaming industry are increasingly vital due to a surge in cyber threats, including Distributed Denial-of-Service (DDoS) attacks, data breaches, and account fraud. Recent reports indicate a staggering increase in bot activity and web attacks, with a 94% rise in web attacks from Q1 2023 to Q1 2024, particularly during major gaming events. The industry also faces challenges from social engineering tactics and malware, which can compromise player data and disrupt gameplay. Effective cybersecurity measures must include robust encryption protocols, real-time threat intelligence, and regular security audits to protect sensitive information and maintain player trust. Additionally, fostering a culture of security awareness among developers and gamers is essential to mitigate risks and ensure a safe gaming environment. As the landscape evolves, prioritizing cybersecurity will be crucial for safeguarding both players and the integrity of gaming platforms.",
+
+     "image": "/assets/industries/egame.svg"
+
+    },
+
+    {
+
+      "id": "38",
+
+      "title": "Education",
+
+      "description": "Cyber services for the education sector are increasingly vital as institutions face a growing array of cyber threats, including ransomware, phishing, and data breaches. Educational organizations are attractive targets due to their vast amounts of sensitive data, limited budgets, and often outdated security systems. Recent statistics indicate a staggering increase in cyberattacks, with a 300% rise reported in the past year alone. Effective cybersecurity measures must include comprehensive policies, regular training for staff and students, and the implementation of advanced technologies like multi-factor authentication (MFA) and Security Information and Event Management (SIEM) systems. Additionally, fostering a culture of cybersecurity awareness is essential to mitigate risks and protect both educational integrity and student safety in an increasingly digital learning environment.",
+
+      "image": "/assets/industries/education.svg"
+
+    },
+
+    {
+
+      "id": "39",
+
+      "title": "Retail",
+
+      "description": "Cyber services in the retail sector are essential for protecting sensitive customer data and maintaining trust in an increasingly digital marketplace. Retailers face significant cybersecurity challenges, including data breaches, phishing attacks, and point-of-sale (POS) intrusions, driven by the vast amounts of personal and financial information they handle. Effective measures include adhering to the Payment Card Industry Data Security Standard (PCI DSS), implementing strong encryption protocols, and conducting regular security audits to identify vulnerabilities. Additionally, retailers should invest in advanced technologies like artificial intelligence for threat detection and foster a culture of security awareness among employees. As cyber threats continue to evolve, prioritizing cybersecurity is critical for safeguarding customer information and ensuring business continuity in the retail industry.",
+
+      "image": "/assets/industries/retail.svg"
+
+    },
+
+    {
+
+      "id": "40",
+
+      "title": "Finance",
+
+      "description": "Cyber services for the finance sector are crucial for protecting sensitive data, ensuring regulatory compliance, and mitigating evolving cyber threats. Financial institutions face significant challenges, including safeguarding vast amounts of personal information, adhering to strict regulations like GDPR and PCI DSS, and defending against sophisticated attacks such as ransomware and phishing. Essential cybersecurity solutions include Web Application Firewalls (WAF) to protect web applications, DDoS protection to maintain service availability, anti-fraud measures to detect online fraud, Identity and Access Management (IAM) to control user access, and Security Information and Event Management (SIEM) systems for real-time security analysis. Best practices such as regular security audits, employee training on cybersecurity awareness, incident response planning, leveraging advanced technologies like AI for threat detection, and ensuring third-party vendors meet stringent security standards are vital for maintaining a robust security posture in the finance sector.",
+
+      "image": "/assets/industries/finance.svg"
+
+    },
+
+    {
+
+      "id": "41",
+
+      "title": "Government",
+
+      "description": "Join our team as a Cybersecurity Analyst, where you will monitor and analyze security systems to identify vulnerabilities and respond to incidents, ensuring our organization's data remains secure.",
+
+      "time": "April,2024"
+
+    }
+
+
+  ] 
+}
+
+

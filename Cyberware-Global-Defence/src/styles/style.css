@@ -1,0 +1,396 @@
+.top-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.top-link {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.top-link:hover {
+  color: #ff6600;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.nav-item-c{
+  border: 2px solid #ff6600;
+  text-align: center;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #ff6600;
+}
+.active {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: #444;
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+/* Fixed active state */
+.nav-link .active {
+  color: #ff6600; 
+}
+
+.dropdown-menu .dropdown-item.active {
+  color: #ff6600;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item.active:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+/* Hero banner */
+.h-hero-banner {
+  background-image: url("../../public/assets/homepage banner/homepage-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Ensure container fits and scrolls horizontally */
+.industry-link {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+}
+
+/* Industry link items */
+.industry-link-item {
+  flex: 0 0 auto;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Horizontal line styling */
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+/* Adjust image size */
+.img-width-50 {
+  width: 50px;
+  height: auto;
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+  .industry-link {
+    justify-content: flex-start; /* Align items to start */
+  }
+}
+
+/* For large screens */
+@media (min-width: 768px) {
+  .industry-link {
+    justify-content: space-between; /* Spread items evenly */
+  }
+}
+
+/* Footer's form */
+
+.form-control-custom {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+}
+.form-control-custom::placeholder {
+  color: #ffffff;
+}
+
+/* Team Card */
+
+.team-card {
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team-card img {
+  max-width: 100%;
+  height: auto;
+  max-height: unset;
+}
+
+.slanted-edge {
+  --p: 70px;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 calc(100% - var(--p)));
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.slanted-edge h5 {
+  margin: 0;
+}
+
+.flotating-small-btn {
+  position: absolute;
+  bottom: 35px;
+  right: 250px;
+  background-color: #ff6f0f;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  z-index: 3;
+}
+
+.flotating-small-btn:hover {
+  background-color: #ffbd91;
+}
+
+.flotating-small-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Our Partners */
+.partners-scroller {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+.scroll-track {
+  display: flex;
+  gap: 70px; /* Space between images */
+  animation: scroll-left 25s linear infinite;
+}
+
+.partner-img {
+  height: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Infinite Scroll Animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-85%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .partners-scroller {
+    height: 80px;
+  }
+  .partner-img {
+    max-height: 60px;
+  }
+}
+
+/* Subscribe */
+.subscribe-input {
+  width: 300px;
+}
+
+/* Our customers */
+
+.customer-card {
+  width: 220px; 
+  min-height: 80px; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  display: flex;
+  flex-shrink: 0;
+}
+
+.horizontal-scroller {
+  display: flex;
+  gap: 12px; 
+  overflow-x: auto;
+  padding: 12px;
+  scrollbar-width: thin;
+}
+
+.horizontal-scroller::-webkit-scrollbar {
+  height: 30px; 
+}
+
+.horizontal-scroller::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
+
+.horizontal-scroller::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+
+
+
+
+
+/* ******ABOUT US PAGE******* */
+
+/* Hero Banner */
+.hero-banner {
+  background-image: url("/assets/about banner/about-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  margin-top: 20px;
+}
+
+.card.about-card {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card.about-card h5 {
+  color: #f09a37;
+}
+
+.new-section {
+  background: #f5f5f5;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.new-section h2 {
+  margin-bottom: 20px;
+}
+
+.our-locations-bg {
+  background-image: url("/assets/our locations/our-location.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.hero-banner-industry {
+  background-image: url("/assets/industries/hero-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* ******PARTNERSHIPS & COLABORATORS PAGE******* */
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.partner-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.t-btn-p {
+  border-bottom: 1px solid #ff6f0f;
+  padding: 2px 60px;
+}
+.t-btn-p:hover {
+  color: #ff6f0f;
+}
+
+/* ******JOBS PAGE******* */
+
+.custom-btn-j {
+  background-color: transparent;
+  padding: 15px 50px;
+  border-radius: 0;
+  color: #ff6f0f;
+  font-weight: 700;
+  border: 2px solid #ff6f0f;
+}
+
+
+
+/* ******SIEM THREAT DETECTION & RENSPONSE PAGE******* */
+
+
+.s-hero-banner {
+  background-image: url("../../public/assets/service banner/service-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+
+/* Breadcrumb */
+
+
+.home-icon {
+  width: 20px; 
+  height: auto;
+  margin-right: 8px; 
+  vertical-align: middle; 
+}
+
+.breadcrumb__option {
+  display: flex;
+  
+}
+
+.breadcrumb__option span,
+.breadcrumb__option div {
+  display: flex;
+  align-items: center;
+}
