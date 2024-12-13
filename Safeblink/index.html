@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safeblink Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/800ff60580.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg nav-bg-custom ps-5 pe-5 nav-sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="#home">
+          <img src="assets/LOGO.svg" alt="Safeblink logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link fw-bolder nav-links-color" href="#inform"
+                >Информирај се</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-bolder nav-links-color" href="#discussion"
+                >Дискусии</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-bolder nav-links-color" href="#contact"
+                >Контакт</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-bolder nav-links-color" href="#profile"
+                >Профил</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex align-items-center" id="loginSection">
+            <a
+              href="#login"
+              class="btn btn-login nav-links-color"
+              id="loginButton"
+            >
+              <img src="./assets/user.svg" alt="user icon" />
+              Најави се
+            </a>
+            <p class="m-0 ms-3 fw-bolder text-color">MK/AL</p>
+            <img
+              class="m-0 ms-3"
+              src="./assets/icon-seach.svg"
+              alt="magnifier icon"
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Homepage section -->
+    <section id="home">
+      <div class="container-fluid p-0">
+        <div class="d-flex flex-column align-items-center">
+          <div class="ratio ratio-21x9 w-100">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/qIbzwb8vzNI?si=v0LOpLP2aGQcLtjp"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h1 class="h1 h1-custom text-center mt-4">
+            Информирај се и заштити се
+          </h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 mx-5 text-start">
+          <!-- Popover test -->
+          <div class="col">
+            <div
+              class="card card-one-custom mb-3 rounded-3"
+              id="popoverCard"
+              data-bs-toggle="popover"
+              data-bs-trigger="focus"
+              data-bs-html="true"
+              data-bs-content="<div class='container-fluid'><h3 class='fw-bold'>Лоши навики при 'Live streaming'</h3><p>Lorem ipsum е едноставен модел на текст кој се користел во печатарската индустрија...</p><div class='form-floating mb-3'><textarea class='form-control' placeholder='Остави коментар...' id='comment'></textarea><label for='comment'>Остави коментар...</label></div><div class='d-flex align-items-center mb-3'><img src='./assets/profile pic.png' class='rounded-circle' width='30' height='30' alt='Profile image'><div class='ms-2'>Име Презиме</div></div></div>"
+            >
+              <div
+                class="card-header py-3 d-flex justify-content-sm-center align-items-center border-0"
+              >
+                <h4 class="mt-3 fw-bold">Научи сè што треба да знаеш</h4>
+                <img
+                  class="img-fluid"
+                  src="./assets/lock-check.svg"
+                  alt="lock icon"
+                />
+              </div>
+              <div class="card-body">
+                <p class="fs-small mt-3 mb-4 text-start">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-custom fw-semibold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+            <!-- Popover test end -->
+          </div>
+          <div class="col">
+            <div class="card card-two-custom mb-3 rounded-3">
+              <div
+                class="card-header py-3 d-flex justify-content-sm-center align-items-center border-0"
+              >
+                <h4 class="mt-3 fw-bold">Научи сè што треба да знаеш</h4>
+                <img
+                  class="img-fluid"
+                  src="./assets/eye-lock.svg"
+                  alt="eye and lock icon"
+                />
+              </div>
+              <div class="card-body">
+                <p class="fs-small mt-3 mb-4 text-start">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-custom fw-semibold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-three-custom mb-3 rounded-3">
+              <div
+                class="card-header py-3 d-flex justify-content-sm-center align-items-center border-0"
+              >
+                <h4 class="my-0 fw-bold">Следи го својот напредок</h4>
+                <img
+                  class="img-fluid"
+                  src="./assets/shield.svg"
+                  alt="Shield icon"
+                />
+              </div>
+              <div class="card-body">
+                <p class="fs-small mt-3 mb-4 text-start">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-custom fw-semibold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Informiraj section -->
+
+    <section id="inform">
+      <div class="container-fluid p-0">
+        <h1 class="h1 h1-custom text-left mt-4 ms-2">Сè што треба да знаеш</h1>
+        <div class="col-12">
+          <div class="row">
+            <ul
+              class="list-unstyled d-flex flex-nowrap justify-content-center scroll-container"
+            >
+              <li class="fw-bolder fs-3 ms-5 tc active">Видеа</li>
+              <li class="fw-bolder fs-3 ms-5 tc-inactive">Упатства</li>
+              <li class="fw-bolder fs-3 ms-5 tc-inactive">Статии</li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <ul
+              class="list-unstyled d-flex flex-nowrap justify-content-center scroll-container"
+            >
+              <li class="fw-bolder fs-3 ms-3 tc">
+                <button class="btn btn-custom rounded-4">Најгледани</button>
+              </li>
+              <li class="fw-bolder fs-3 ms-3 tc">
+                <button class="btn btn-custom rounded-4">Актуелно</button>
+              </li>
+              <li class="fw-bolder fs-3 ms-3 tc">
+                <button class="btn btn-custom rounded-4">Најнови</button>
+              </li>
+              <li class="fw-bolder fs-3 ms-3 tc">
+                <button class="btn btn-custom rounded-4">
+                  Азбучен редослед
+                </button>
+              </li>
+              <li class="fw-bolder fs-3 ms-5 tc">
+                <button class="btn btn-custom rounded-4">Интернет видеа</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container my-4">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"
+            >
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100 custom-video-card">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body transparent-card-bg">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Repeat for other video cards -->
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body custom-video-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body custom-video-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body custom-video-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100 custom-video-card">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body achievment-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100 custom-video-card">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body achievment-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100 custom-video-card">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body achievment-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4" onclick="handleVideoClick(this)">
+                <div class="card h-100 custom-video-card">
+                  <div class="video-container">
+                    <iframe
+                      class="card-video"
+                      src="https://www.youtube.com/embed/ePdbj2bZ-Ro"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="card-body achievment-card">
+                    <h5 class="card-title tc">Наслов на видео</h5>
+                    <p class="card-text tc">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард...
+                    </p>
+                    <span class="badge fw-light text-color"
+                      >Објавено на 28/05/23</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discussion section -->
+    <section id="discussion">
+      <div class="container mt-5">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3"
+          id="discussion-board"
+        >
+          <!-- Comment Card -->
+          <div class="col mb-4">
+            <div id="comment-card" class="card p-3 achievment-card">
+              <div class="card-body">
+                <div class="form-group">
+                  <input
+                    id="comment"
+                    type="text"
+                    class="form-control txtfield-bborder"
+                    placeholder="Сподели искуство"
+                    onkeydown="if(event.key === 'Enter') addComment()"
+                  />
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="assets/small-avatar.png"
+                    class="rounded-circle mr-3 me-3"
+                    alt="Avatar"
+                  />
+                  <div class="flex-grow-1">
+                    <h6 class="mb-0">Име Презиме</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-12 col-md-8 offset-md-2">
+            <h1 class="h1 h1-custom text-left mt-4 ms-2">Контакт</h1>
+            <h4 class="h4 fw-bolder tc text-left mt-4 ms-2">
+              Побарај стручна помош
+            </h4>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="card w-100 card-bg-custom">
+                <div
+                  class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center"
+                >
+                  <div class="mb-3 mb-md-0">
+                    <h5 class="h5 fw-bolder my-3 card-title tc-tetriary">
+                      Агенција за заштита на личните податоци
+                    </h5>
+                    <p class="card-text w-100 fs-small">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард кој се користел како модел уште пред 1500 години,
+                      кога непознат печатар зел кутија со букви и ги сложил на
+                      таков начин за да направи примерок на книга.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn w-95 w-md-100 w-md-auto tc-tetriary-bg tc-white fw-medium"
+                    >Линк</a
+                  >
+                </div>
+              </div>
+            </div>
+            <h4 class="h4 fw-bolder tc text-left mt-4 ms-2">
+              Невладини организации
+            </h4>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="card w-100 card-bg-custom">
+                <div
+                  class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center"
+                >
+                  <div class="mb-3 mb-md-0">
+                    <h5 class="h5 fw-bolder my-3 card-title tc-tetriary">
+                      NGO 1
+                    </h5>
+                    <p class="card-text w-100 fs-small">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард кој се користел како модел уште пред 1500 години,
+                      кога непознат печатар зел кутија со букви и ги сложил на
+                      таков начин за да направи примерок на книга.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn w-95 w-md-100 w-md-auto tc-tetriary-bg tc-white fw-medium"
+                    >Линк</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="card w-100 card-bg-custom">
+                <div
+                  class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center"
+                >
+                  <div class="mb-3 mb-md-0">
+                    <h5 class="h5 fw-bolder my-3 card-title tc-tetriary">
+                      NGO 2
+                    </h5>
+                    <p class="card-text w-100 fs-small">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард кој се користел како модел уште пред 1500 години,
+                      кога непознат печатар зел кутија со букви и ги сложил на
+                      таков начин за да направи примерок на книга.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn tc-tetriary-bg w-95 w-md-100 w-md-auto tc-white fw-medium"
+                    >Линк</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="card w-100 card-bg-custom">
+                <div
+                  class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center"
+                >
+                  <div class="mb-3 mb-md-0">
+                    <h5 class="h5 fw-bolder my-3 card-title tc-tetriary">
+                      NGO 3
+                    </h5>
+                    <p class="card-text w-100 fs-small">
+                      Лорем ипсум е едноставен модел на текст кој се користел во
+                      печатарската индустрија. Лорем ипсум бил индустриски
+                      стандард кој се користел како модел уште пред 1500 години,
+                      кога непознат печатар зел кутија со букви и ги сложил на
+                      таков начин за да направи примерок на книга.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn tc-tetriary-bg w-95 w-md-100 w-md-auto tc-white fw-medium"
+                    >Линк</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile section -->
+
+    <section id="profile">
+      <div class="container-fluid p-0">
+        <h1 class="h1 h1-custom text-left mt-4 ms-5 me-sm-5">Профил</h1>
+        <div class="container mt-4 ms-5 me-sm-5 p-4 rounded">
+          <div class="row align-items-center mb-4">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <img
+                src="./assets/profile pic.png"
+                class="rounded img-fluid"
+                alt="Profile image"
+              />
+            </div>
+            <div class="col-md-8">
+              <form class="needs-validation" novalidate="" type="submit">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label
+                      for="fullName"
+                      class="form-label text-white fw-medium fs-small"
+                      >Име и презиме / Корисничко име</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control profile-textfield-custom"
+                      id="fullName"
+                      placeholder="Username"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <label
+                      for="birthDate"
+                      class="form-label text-white fw-medium fs-small"
+                      >Година на раѓање</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control profile-textfield-custom"
+                      id="birthDate"
+                      placeholder="2007"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <label
+                      for="email"
+                      class="form-label text-white fw-medium fs-small"
+                      >Email адреса</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control profile-textfield-custom"
+                      id="email"
+                      placeholder="useruser@gmail.com"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <label
+                      for="gender"
+                      class="form-label text-white fw-medium fs-small"
+                      >Пол</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control profile-textfield-custom"
+                      id="phone"
+                      placeholder="машки"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <label
+                      for="address"
+                      class="form-label text-white fw-medium fs-small"
+                      >Лозинка</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control profile-textfield-custom"
+                      id="address"
+                      placeholder="* * * * * * * *"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Achievements -->
+          <div class="row">
+            <div class="col-md-6 text-start">
+              <p class="fw-medium text-white">
+                Следи го својот Safeblink напредок!
+              </p>
+            </div>
+            <div class="col-md-6 text-end text-white">
+              <p class="fw-medium">Моментално ниво: Lorem ipsum</p>
+            </div>
+          </div>
+          <div
+            class="progress achievment-card mb-4"
+            style="height: 10px; border-radius: 10px"
+          >
+            <div
+              class="progress-bar progress-bar-bg"
+              role="progressbar"
+              style="width: 40%; border-radius: 10px"
+              aria-valuenow="40"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div class="card achievment-card rounded shadow-sm">
+                <div class="card-body">
+                  <img
+                    src="./assets/fist.svg"
+                    alt="Fist icon"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Се придружи!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div
+                id="achievement-card-10"
+                class="card achievment-card rounded shadow-sm d-none"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/security cam.svg"
+                    alt="Security Camera"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Изгледани 10 видеа
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div class="card achievment-card rounded shadow-sm d-none">
+                <div class="card-body">
+                  <img
+                    src="./assets/eye.svg"
+                    alt="Eye icon"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Изгледани 20 видеа
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div
+                id="achievement-card-50"
+                class="card achievment-card rounded shadow-sm d-none"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/shield1.svg"
+                    alt="shield icon"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Изгледани 50 видеа
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div
+                id="achievement-card-comment"
+                class="card achievment-card rounded shadow-sm d-none"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/swords.svg"
+                    alt="swords icon"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Активност во дискусија
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 text-center mt-4">
+              <div class="card achievment-card rounded shadow-sm d-none">
+                <div class="card-body">
+                  <img
+                    src="./assets/trophy.svg"
+                    alt="trophy icon"
+                    class="img-fluid mb-2"
+                  />
+                  <p class="card-text fs-small text-white fontweight-semibold">
+                    Прочитани 20 статии
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login section -->
+    <section id="login">
+      <div class="container-fluid p-0">
+        <form id="loginForm" type="submit">
+          <h1 class="h1 h1-custom text-left mt-4 ms-5 me-sm-5">
+            Придружи ни се
+          </h1>
+          <div class="row d-flex">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center align-items-start px-5"
+            >
+              <button class="btn mb-3 w-100 text-start bg-white">
+                <img src="./assets/google.svg" alt="Google" class="me-2 ps-3" />
+                Продолжи со Google
+              </button>
+              <button class="btn mb-3 w-100 text-start bg-white">
+                <img src="./assets/apple.svg" alt="Apple" class="me-2 ps-3" />
+                Продолжи со Apple
+              </button>
+              <button class="btn mb-3 w-100 text-start bg-white">
+                <img
+                  src="./assets/tiktock-dark.svg"
+                  alt="TikTok"
+                  class="me-2 ps-3"
+                />
+                Продолжи со TikTok
+              </button>
+              <div class="row w-100 mb-3">
+                <div class="col"><hr class="b-color" /></div>
+                <div class="col-auto text-white">или</div>
+                <div class="col"><hr class="b-color" /></div>
+              </div>
+              <div class="mb-3 w-100">
+                <label
+                  id="username"
+                  for="username"
+                  class="form-label text-white"
+                  >Username</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-custom"
+                  id="username"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="mb-3 w-100">
+                <label
+                  id="password"
+                  for="password"
+                  class="form-label text-white"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control b-color"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center w-100 mb-3"
+              >
+                <div class="form-check">
+                  <input
+                    class="form-check-input form-check-custom"
+                    type="checkbox"
+                    id="rememberMe"
+                  />
+                  <label class="form-check-label text-white" for="rememberMe"
+                    >Remember me</label
+                  >
+                </div>
+                <a href="#" class="text-decoration-none text-white"
+                  >Forgot password?</a
+                >
+              </div>
+              <button
+                type="submit"
+                onClick="handleGoToHome"
+                class="btn btn-custom w-50 mx-auto d-block"
+              >
+                Најави се
+              </button>
+            </div>
+            <div
+              class="col-lg-6 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/login-img.png"
+                alt="Superhero and lock image"
+                class="img-fluid w-75"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-white mt-4 footer-bg-color p-5 footer-text-size"
+    >
+      <div class="mt-3">
+        <div class="text-center text-sm-start">
+          <div
+            class="row d-flex flex-wrap align-items-sm-start align-items-center justify-content-between"
+          >
+            <div
+              class="col-12 col-md-3 col-lg-4 col-xl-3 mb-4 d-flex flex-column align-items-md-start text-sm-start align-items-center text-center text-md-start footer-logo-container"
+            >
+              <img
+                class="mb-4"
+                src="./assets/LOGO-white.svg"
+                alt="Safeblink white logo"
+              />
+              <p>International Foundation for Electoral Systems (IFES)</p>
+              <div
+                class="d-flex flex-column flex-md-row flex-sm-row justify-content-center justify-content-md-start align-items-center"
+              >
+                <div class="d-flex align-items-start mb-2 mb-md-0">
+                  <img class="me-2" src="./assets/phone.svg" alt="phone icon" />
+                  <span>+389-2-312-2288</span>
+                </div>
+                <div class="d-flex align-items-start">
+                  <img
+                    class="me-2 ms-md-3"
+                    src="./assets/mail.svg"
+                    alt="email icon"
+                  />
+                  <span>ifes.nmk@ifes.org</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-4 col-lg-3 col-xl-3 mb-4 d-flex flex-column align-items-md-start align-items-center text-center text-md-start"
+            >
+              <p>
+                <a href="#inform" class="text-white footer-link"
+                  >Информирај се</a
+                >
+              </p>
+              <p>
+                <a href="#discussion" class="text-white footer-link"
+                  >Дискусии</a
+                >
+              </p>
+              <p>
+                <a href="#contact" class="text-white footer-link"
+                  >Контакт - корисни линкови</a
+                >
+              </p>
+              <p>
+                <a href="#profile" class="text-white footer-link"
+                  >Закон за заштита на личните податоци</a
+                >
+              </p>
+            </div>
+            <div
+              class="col-12 col-md-3 col-lg-2 col-xl-2 mb-4 d-flex flex-column align-items-md-start align-items-center text-center text-md-start social-media-container"
+            >
+              <p class="footer-mk-al"><strong>MK | AL</strong></p>
+              <div
+                class="d-flex justify-content-center justify-content-md-start my-4"
+              >
+                <a href="#"
+                  ><img
+                    class="me-3"
+                    src="./assets/facebook.svg"
+                    alt="facebook icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    class="me-3"
+                    src="./assets/instagram.svg"
+                    alt="instagram icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    class="me-3"
+                    src="./assets/youtube.svg"
+                    alt="youtube icon"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/tiktok.svg" alt="tiktok icon"
+                /></a>
+              </div>
+              <p>&copy; All Rights Reserved. | Safeblink</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="./js/disscussion.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
